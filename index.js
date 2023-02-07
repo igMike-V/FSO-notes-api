@@ -13,7 +13,6 @@ app.use(cors())
     next()
   }
 
-app.use(express.static('dist'))
 app.use(express.json())
 app.use(requestLogger)
 
