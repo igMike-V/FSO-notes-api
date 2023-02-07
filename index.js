@@ -13,6 +13,7 @@ app.use(cors())
     next()
   }
 
+app.use(express.static('frontend'))
 app.use(express.json())
 app.use(requestLogger)
 
