@@ -1,1 +1,13 @@
-GET http://localhost:3001/api/notes/1
+### Get all notes
+GET http://localhost:3001/api/notes
+
+
+### GET one note
+GET http://localhost:3001/api/notes/63e3e27b6633158da39639a7
+
+### GET one note ERROR MALFORMED ID
+GET http://localhost:3001/api/notes/63e3e27b656439639a7
+
+
+### DELETE a note
+DELETE http://localhost:3001/api/notes/63e52b14cc82e75c7a5454de

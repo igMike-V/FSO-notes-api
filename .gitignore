@@ -5,6 +5,7 @@
 **/.pnp
 
 # ENV files
+.env
 *.local
 
 # testing

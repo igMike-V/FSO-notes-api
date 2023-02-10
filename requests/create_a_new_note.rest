@@ -2,6 +2,15 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "Some content to make a new note",
+    "content": "prr",
     "important": true
+}
+
+### update notes
+PUT http://localhost:3001/api/notes/63e4e2841d9790ef84e8ed5a
+Content-Type: application/json
+
+{
+    "content": "UddddddT",
+    "important": false
 }
